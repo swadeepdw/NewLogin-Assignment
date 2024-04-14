@@ -51,7 +51,7 @@ export default function Landing() {
             <p className="font-quicksand px-40 py-10">
               By agreeing to our terms of service, you&apos;re joining a
               community committed to excellence in project management supported
-              by Smartgig Technologies. Lorem ipsum dolor sit amet consectetur,
+              by Pvt Technologies. Lorem ipsum dolor sit amet consectetur,
               adipisicing elit. Sunt, similique iusto maiores pariatur
               repellendus aspernatur beatae consectetur delectus asperiores
               expedita dolore, quaerat aut iste commodi animi ratione aliquam

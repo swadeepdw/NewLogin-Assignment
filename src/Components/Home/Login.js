@@ -8,7 +8,7 @@ export default function LoginPage() {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
   const navigate = useNavigate();
-  
+
   const onLogin = (e) => {
     // e.preventDefault();
   };
@@ -44,7 +44,7 @@ export default function LoginPage() {
           </div>
           <div>
             <form onSubmit={onLogin} className="text-blue-600">
-              <div className="mb-4 relative">
+              <div className="my-7 relative">
                 <MailOutlineRoundedIcon className="absolute left-2 top-1/2 transform -translate-y-1/2 text-blue-600" />
                 <label
                   className="text-blue-600 absolute left-8  -translate-y-1/2 bg-white px-1"
@@ -63,7 +63,7 @@ export default function LoginPage() {
                   className="w-full  border-2 rounded-md border-borderBlue py-2 px-3 focus:outline-none focus:border-blue-600 pl-10"
                 />
               </div>
-              <div className="mb-6 relative">
+              <div className="my-7 relative">
                 <LockOutlinedIcon className="absolute left-2 top-1/2 transform -translate-y-1/2 text-blue-600" />
                 <label
                   className="text-blue-600 absolute left-8  -translate-y-1/2 bg-white px-1"
@@ -91,11 +91,15 @@ export default function LoginPage() {
             </form>
           </div>
         </div>
+        <div className="text-center text-blue-600 cursor-pointer">
+          Foget password?
+        </div>
         <div
           onClick={handleBack}
-          className="text-center text-blue-600 cursor-pointer"
+          className="text-center text-blue-600 cursor-pointer pb-10"
+          style={{position:"absolute",bottom:0}}
         >
-         Back to landing page
+          Back to landing page
         </div>
       </div>
     </div>
